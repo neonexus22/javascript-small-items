@@ -9,7 +9,7 @@ function createNotification(event) {
   const notify = document.createElement("div");
   notify.classList.add("toast");
 
-  notify.innerText = "This is a toast message";
+  notify.innerText = "This is a toast message!";
 
   container.appendChild(notify);
 

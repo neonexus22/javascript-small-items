@@ -11,6 +11,16 @@ body {
   min-height: 100vh;
 }
 
+button {
+  background-color: rebeccapurple;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 1rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+
 .toast {
   background-color: rebeccapurple;
   color: white;
@@ -23,14 +33,4 @@ body {
   position: fixed;
   right: 10px;
   bottom: 10px;
-}
-
-button {
-  background-color: rebeccapurple;
-  border: none;
-  border-radius: 5px;
-  color: #fff;
-  padding: 1rem;
-  cursor: pointer;
-  font-family: inherit;
 }

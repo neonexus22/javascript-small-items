@@ -1,7 +1,7 @@
 # javascript-small-items
 
 auto-write-text: 
-  A simple way of writing text using javascript.
+  Auto writing effect using javascript
   
 hamburger:
   display and hide right menu on hamburger menu clicked

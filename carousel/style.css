@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.carousel {
+  width: 500px;
+  height: 280px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.image-container {
+  display: flex;
+  transition: transform 0.3s linear;
+  transform: translateX(0);
+}
+
+img {
+  width: 500px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.pull-away {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  border: 0;
+  background: darkblue;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 2px 2px 5px rgba(19, 16, 16, 0.3);
+}
+
+.btn:active {
+  box-shadow: none;
+}
+
+.btn.disabled {
+  background-color: gray;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}

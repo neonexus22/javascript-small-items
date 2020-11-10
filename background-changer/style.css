@@ -1,0 +1,36 @@
+@import url("http://fonts.googleapis.com/css2?family=Poopins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+button {
+  background: #1d74f5;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px 2px #ddd;
+}
+
+button:hover {
+  background: white;
+  color: #1d74f5;
+}
+
+button:active {
+  color: #fff;
+  box-shadow: none;
+}

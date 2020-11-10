@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Carousel</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="carousel">
+        <div class="image-container" id="imgs">
+          <img
+            src="https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1604920695487-d31ff9bf0742?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1604954247946-356df6a82cae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1604935932118-293fb800eb75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="pull-away">
+        <button class="btn" id="prevBtn"><<</button>
+        <button class="btn" id="pauseBtn">
+          <span id="pause">&#x23F8;</span>
+          <span id="play" class="hidden">&#x25B6;</span>
+        </button>
+        <button class="btn" id="nextBtn">>></button>
+      </div>
+    </div>
+  </body>
+</html>

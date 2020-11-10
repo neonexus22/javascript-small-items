@@ -1,0 +1,29 @@
+@import url("http://fonts.googleapis.com/css2?family=Poopins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.heart {
+  cursor: pointer;
+  position: fixed;
+  top: -5vh;
+  font-size: 2rem;
+  transform: translateY(0);
+  animation: fall 3s linear;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(105vh);
+  }
+}
